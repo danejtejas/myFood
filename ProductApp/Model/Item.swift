@@ -72,18 +72,90 @@ class CategoryItemData : NSObject {
     
     override init() {
         
-        let pizzaItem : [Item] = [Item(name: "Margherita", desc: "A hugely popular margherita, with a deliciously tangy single cheese topping", price: 199, image: "pizza", rating: 4)]
+        
+        // here setup pizza category and it's items data
+        
+        let pizzaItem : [Item] = [
+            Item(name: "Margherita", desc: "A hugely popular margherita, with a deliciously tangy single cheese topping", price: 199, image: "Margherit", rating: 3),
+            
+            Item(name: "Farm house", desc: "A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes", price: 349, image: "Farmhouse", rating: 4),
+            
+            Item(name: "Peppy Paneer", desc: "Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!", price: 349, image: "Farmhouse", rating: 3),
+            
+            Item(name: "Mexican Green Wave", desc: "A pizza loaded with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno with a liberal sprinkling of exotic Mexican herbs", price: 449, image: "MexicanGreenWave", rating: 2),
+            
+            Item(name: "Deluxe Veggie", desc: "For a vegetarian looking for a BIG treat that goes easy on the spices, this one's got it all.. The onions, the capsicum, those delectable mushrooms - with paneer and golden corn to top it all.", price: 299, image: "PeppyPaneer", rating: 4)
+                    
+                    ]
         
         let catPizza = Category(categoryName: "Pizza", items: pizzaItem)
         
         arrCategories.append(catPizza) // here add pizza categor and it's times
         
-//        arrCategories.append(Category(categoryName: "Pizza", items: [Item(name: "Pizza Pizza Pizza Pizza Pizza", desc: "The pizza base was an inch thick and as white as my unfinished term paper. The sauce tasted like it came out of a can, a cheap one, and the topping was generous but greasy. Overly thick slices of pepperoni sat in pools of grease from the cheese. The only colour came from the shards of red pepper on top, likely the only edible thing on the plate if you didn't mind the oils on them too. One bite was enoug", price: 100, image: "pizza", rating: 4),Item(name: "Pizza", desc: "Pizza", price: 100, image: "pizza"),Item(name: "Pizza", desc: "Pizza", price: 100, image: "pizza"),Item(name: "Pizza", desc: "Pizza", price: 101, image: "pizza"),Item(name: "Pizza", desc: "Pizza", price: 100, image: "pizza"),Item(name: "Pizza", desc: "Pizza", price: 100, image: "pizza")]))
-//
-//          arrCategories.append(Category(categoryName: "Pizza1", items: [Item(name: "Pizza", desc: "Pizza", price: 100, image: "pizza"),Item(name: "Pizza", desc: "Pizza", price: 100, image: "pizza"),Item(name: "Pizza", desc: "Pizza", price: 100, image: "pizza"),Item(name: "Pizza", desc: "Pizza", price: 100, image: "pizza"),Item(name: "Pizza", desc: "Pizza", price: 100, image: "pizza"),Item(name: "Pizza", desc: "Pizza", price: 100, image: "pizza")]))
-//
-//
-//                 arrCategories.append(Category(categoryName: "Pizza2", items: [Item(name: "Pizza", desc: "Pizza", price: 100, image: "pizza"),Item(name: "Pizza", desc: "Pizza", price: 100, image: "pizza"),Item(name: "Pizza", desc: "Pizza", price: 100, image: "pizza"),Item(name: "Pizza", desc: "Pizza", price: 100, image: "pizza"),Item(name: "Pizza", desc: "Pizza", price: 100, image: "pizza"),Item(name: "Pizza", desc: "Pizza", price: 100, image: "pizza")]))
+        
+         // here setup Burgers category and it's items data
+        
+        let buggerItems : [Item] = [
+        Item(name: "Big Mac", desc: "Mouthwatering perfection starts with two 100% pure beef patties and Big Mac sauce sandwiched between a sesame seed bun. It’s topped off with pickles, crisp shredded lettuce, finely chopped onion and American cheese", price: 150, image: "BigMac", rating: 3),
+        
+        Item(name: "Double Cheeseburger", desc: "The McDonald’s Double Cheeseburger features two 100% pure beef burger patties seasoned with just a pinch of salt and pepper. It’s topped with tangy pickles, chopped onions, ketchup, mustard and two slices of melty American cheese. It contains no artificial flavors, preservatives or added colors from artificial sources.* Our pickle contains an artificial preservative, so skip it if you like", price: 250, image: "DoubleCheeseburger", rating: 4),
+        
+        Item(name: "Double Quarter Pounder with Cheese", desc: "Each Double Quarter Pounder with Cheese features two quarter pound* 100% fresh beef burger patties that are hot, deliciously juicy and cooked when you order. McDonald’s beef patties are seasoned with just a pinch of salt and pepper, sizzled on a flat iron grill, then topped with slivered onions, tangy pickles and two slices of melty cheese on a sesame seed bun. It contains no artificial flavors, preservatives or added colors from artificial sources.** Our pickle contains an artificial preservative, so skip it if you like.", price: 200, image: "DoubleQuarterPounderwithCheese", rating: 3),
+        
+        Item(name: "Hamburger", desc: "The original burger starts with a 100% pure beef patty seasoned with just a pinch of salt and pepper, then topped with a tangy pickle, chopped onions, ketchup and mustard. It contains no artificial flavors, preservatives or added colors from artificial sources.* Our pickle contains an artificial preservative, so skip it if you like", price: 249, image: "Hamburger", rating: 2),
+        
+        Item(name: "Quarter Pounder with Cheese", desc: "Each Quarter Pounder with Cheese burger features a ¼ lb.* of 100% fresh beef that’s hot, deliciously juicy and cooked when you order. It’s seasoned with just a pinch of salt and pepper, sizzled on a flat iron grill, then topped with slivered onions, tangy pickles and two slices of melty cheese on a sesame seed bun. Our QPC® contains no artificial flavors, preservatives or added colors from artificial sources. **Our pickle contains an artificial preservative, so skip it if you like.", price: 199, image: "QuarterPounderwithCheese", rating: 4)
+                
+                ]
+        
+        let catBug = Category(categoryName: "Burgers", items: buggerItems)
+        
+        arrCategories.append(catBug) // here add Burgers categor and it's items
+        
+        
+        // here setup beverages category and it's items data
+        
+        let beveragesItems : [Item] = [
+        Item(name: "Coca-Cola", desc: "Coca-Cola is a refreshing myFood's soda option that complements all of your menu favorites", price: 100, image: "CocaColaClassicSmall", rating: 3),
+        
+        Item(name: "Diet Coke", desc: "Icy cold Diet Coke, with zero calories.", price: 250, image: "DietCokeSmall", rating: 4),
+        
+        Item(name: "Dr Pepper", desc: "myFood's serves Dr Pepper, the classic and refreshing fountain drink. This myFood's soda option is perfect to pair with any of your favorite menu items.", price: 200, image: "DrPepperSmall", rating: 3),
+        
+        Item(name: "Iced Tea", desc: "A refreshing drink of myFood's Iced Tea, freshly brewed with a brisk blend of orange pekoe and pekoe cut black tea, served ice cold", price: 249, image: "IcedTeaLarge", rating: 2),
+        
+        Item(name: "Quarter Pounder with Cheese", desc: "Each Quarter Pounder with Cheese burger features a ¼ lb.* of 100% fresh beef that’s hot, deliciously juicy and cooked when you order. It’s seasoned with just a pinch of salt and pepper, sizzled on a flat iron grill, then topped with slivered onions, tangy pickles and two slices of melty cheese on a sesame seed bun. Our QPC® contains no artificial flavors, preservatives or added colors from artificial sources. **Our pickle contains an artificial preservative, so skip it if you like.", price: 199, image: "QuarterPounderwithCheese", rating: 4)
+                
+                ]
+        
+        let catBeverages = Category(categoryName: "Beverages", items: beveragesItems)
+        
+        arrCategories.append(catBeverages) // here add Burgers categor and it's items
+        
+ 
+        
+        
+        
+        // here setup snacks category and it's items data
+        
+        let snacksItems : [Item] = [
+            Item(name: "Coca-Cola", desc: "Coca-Cola is a refreshing myFood's soda option that complements all of your menu favorites", price: 100, image: "CocaColaClassicSmall", rating: 3),
+            
+            Item(name: "Diet Coke", desc: "Icy cold Diet Coke, with zero calories.", price: 250, image: "DietCokeSmall", rating: 4),
+            
+            Item(name: "Dr Pepper", desc: "myFood's serves Dr Pepper, the classic and refreshing fountain drink. This myFood's soda option is perfect to pair with any of your favorite menu items.", price: 200, image: "DrPepperSmall", rating: 3),
+            
+            Item(name: "Iced Tea", desc: "A refreshing drink of myFood's Iced Tea, freshly brewed with a brisk blend of orange pekoe and pekoe cut black tea, served ice cold", price: 249, image: "IcedTeaLarge", rating: 2),
+            
+            Item(name: "Quarter Pounder with Cheese", desc: "Each Quarter Pounder with Cheese burger features a ¼ lb.* of 100% fresh beef that’s hot, deliciously juicy and cooked when you order. It’s seasoned with just a pinch of salt and pepper, sizzled on a flat iron grill, then topped with slivered onions, tangy pickles and two slices of melty cheese on a sesame seed bun. Our QPC® contains no artificial flavors, preservatives or added colors from artificial sources. **Our pickle contains an artificial preservative, so skip it if you like.", price: 199, image: "QuarterPounderwithCheese", rating: 4)
+            
+        ]
+        
+        let catsnacks = Category(categoryName: "Snacks", items: snacksItems)
+        
+        arrCategories.append(catsnacks) // here add Snacks categor and it's items
+        
+        
         
        
     }
