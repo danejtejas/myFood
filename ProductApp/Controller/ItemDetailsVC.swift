@@ -40,6 +40,8 @@ class ItemDetailsVC: UIViewController {
         setLightMode()
         navigationItem.title = "Item Details"
         
+       
+        
         showItemDetails()
         
     }
