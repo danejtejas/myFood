@@ -122,10 +122,8 @@ class CategoryItemData : NSObject {
         
         Item(name: "Dr Pepper", desc: "myFood's serves Dr Pepper, the classic and refreshing fountain drink. This myFood's soda option is perfect to pair with any of your favorite menu items.", price: 200, image: "DrPepperSmall", rating: 3),
         
-        Item(name: "Iced Tea", desc: "A refreshing drink of myFood's Iced Tea, freshly brewed with a brisk blend of orange pekoe and pekoe cut black tea, served ice cold", price: 249, image: "IcedTeaLarge", rating: 2),
+        Item(name: "Iced Tea", desc: "A refreshing drink of myFood's Iced Tea, freshly brewed with a brisk blend of orange pekoe and pekoe cut black tea, served ice cold", price: 249, image: "IcedTeaLarge", rating: 2)
         
-        Item(name: "Quarter Pounder with Cheese", desc: "Each Quarter Pounder with Cheese burger features a ¼ lb.* of 100% fresh beef that’s hot, deliciously juicy and cooked when you order. It’s seasoned with just a pinch of salt and pepper, sizzled on a flat iron grill, then topped with slivered onions, tangy pickles and two slices of melty cheese on a sesame seed bun. Our QPC® contains no artificial flavors, preservatives or added colors from artificial sources. **Our pickle contains an artificial preservative, so skip it if you like.", price: 199, image: "QuarterPounderwithCheese", rating: 4)
-                
                 ]
         
         let catBeverages = Category(categoryName: "Beverages", items: beveragesItems)
@@ -139,15 +137,16 @@ class CategoryItemData : NSObject {
         // here setup snacks category and it's items data
         
         let snacksItems : [Item] = [
-            Item(name: "Coca-Cola", desc: "Coca-Cola is a refreshing myFood's soda option that complements all of your menu favorites", price: 100, image: "CocaColaClassicSmall", rating: 3),
+            Item(name: "Bacon, Egg & Cheese Biscuit", desc: "Bacon, Egg & Cheese Biscuit features a warm, buttermilk biscuit brushed with real butter, thick cut Applewood smoked bacon, a fluffy folded egg, and a slice of melty American cheese.", price: 100, image: "BaconEggCheeseBiscuitRegularSizeBiscuit", rating: 3),
             
-            Item(name: "Diet Coke", desc: "Icy cold Diet Coke, with zero calories.", price: 250, image: "DietCokeSmall", rating: 4),
+            Item(name: "Fruit & Maple Oatmeal", desc: "Our Fruit and Maple Oatmeal has two full servings of whole-grain oats and a touch of cream. myFood's oatmeal is loaded with red and green apples, cranberries, and two varieties of raisins for a hearty, wholesome breakfast of whole-grain oatmeal and fruit. ", price: 250, image: "FruitMapleOatmeal", rating: 4),
             
-            Item(name: "Dr Pepper", desc: "myFood's serves Dr Pepper, the classic and refreshing fountain drink. This myFood's soda option is perfect to pair with any of your favorite menu items.", price: 200, image: "DrPepperSmall", rating: 3),
+            Item(name: "Sausage Burrito", desc: "The Sausage Burrito is myFood's Breakfast Burrito and is loaded with fluffy scrambled egg, pork sausage, melty cheese, green chiles and onion! It's wrapped in a soft tortilla, making it the perfect grab and go snack", price: 200, image: "SausageBurrito", rating: 3),
             
-            Item(name: "Iced Tea", desc: "A refreshing drink of myFood's Iced Tea, freshly brewed with a brisk blend of orange pekoe and pekoe cut black tea, served ice cold", price: 249, image: "IcedTeaLarge", rating: 2),
+           Item(name: "Sausage, Egg & Cheese", desc: "Sausage, Egg & Cheese myFood feature soft, warm griddle cakes—with the sweet taste of maple—that hold a fluffy folded egg, savory sausage, and melty American cheese. McGriddles cakes have no artificial preservatives or flavors and no colors from artificial sources", price: 249, image: "SausageBiscuitwithEggRegularSizeBiscuit", rating: 2),
+                    
             
-            Item(name: "Quarter Pounder with Cheese", desc: "Each Quarter Pounder with Cheese burger features a ¼ lb.* of 100% fresh beef that’s hot, deliciously juicy and cooked when you order. It’s seasoned with just a pinch of salt and pepper, sizzled on a flat iron grill, then topped with slivered onions, tangy pickles and two slices of melty cheese on a sesame seed bun. Our QPC® contains no artificial flavors, preservatives or added colors from artificial sources. **Our pickle contains an artificial preservative, so skip it if you like.", price: 199, image: "QuarterPounderwithCheese", rating: 4)
+            Item(name: "Sausage Biscuit", desc: "myFood's Sausage Biscuit is the perfect sausage breakfast sandwich, made with sizzling hot sausage on a warm buttermilk biscuit that’s topped with real butter and baked to perfection.", price: 199, image: "SausageBiscuitRegularSizeBiscuit", rating: 4)
             
         ]
         

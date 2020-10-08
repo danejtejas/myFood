@@ -11,7 +11,7 @@ import UIKit
 class ItemDetailsVC: UIViewController {
 
     
-    @IBOutlet weak var itemDetailView : UIView!
+    @IBOutlet weak var itemDetailView : CardView!
     
     @IBOutlet weak var itemImageView : UIImageView!
     
@@ -40,9 +40,11 @@ class ItemDetailsVC: UIViewController {
         setLightMode()
         navigationItem.title = "Item Details"
         
-         showItemDetails()
+        showItemDetails()
         
     }
+    
+    
     
     func showItemDetails()  {
        

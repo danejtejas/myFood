@@ -9,7 +9,33 @@
 import UIKit
 
 class CardView: UIView {
-
+    
+    var cornerRadius : CGFloat = 10 {
+        didSet {
+            setup()
+        }
+    }
+    
+    var shadowOffset : CGSize = CGSize(width: 1, height: 2.0){
+        
+        didSet {
+            setup()
+        }
+    }
+    
+    
+    var shadowRadius : CGFloat = 2 {
+        didSet {
+            setup()
+        }
+    }
+    
+    
+    var shadowOpacity : Float = 2 {
+        didSet {
+            setup()
+        }
+    }
     
     
     override init(frame: CGRect) {
@@ -25,18 +51,18 @@ class CardView: UIView {
     
     func  setup()  {
         
-    
-     
-        layer.cornerRadius = 10
-
-        layer.shadowColor = UIColor.gray.cgColor
-        layer.shadowOffset = CGSize(width: 1, height: 2.0)
-        layer.shadowRadius = 2
-        layer.shadowOpacity = 0.8
         
-    
+        
+        layer.cornerRadius = cornerRadius
+        
+        layer.shadowColor = UIColor.gray.cgColor
+        layer.shadowOffset = shadowOffset
+        layer.shadowRadius = shadowRadius
+        layer.shadowOpacity = shadowOpacity
+        
+        
         
         
     }
-
+    
 }
