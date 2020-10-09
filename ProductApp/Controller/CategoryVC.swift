@@ -9,10 +9,6 @@
 import UIKit
 
 
-
-
-
-
 class CategoryVC: UIViewController {
     
     
@@ -192,6 +188,7 @@ extension CategoryVC : UITableViewDelegate
     }
     
     
+    // tap gesture on tableview header for fold and unfold feature
     @objc func tapGestrueHandle( _ gesture : UITapGestureRecognizer)  {
         
         let section = gesture.view!.tag

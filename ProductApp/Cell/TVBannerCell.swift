@@ -15,7 +15,7 @@ class TVBannerCell: UITableViewCell {
     @IBOutlet weak var collectionView : UICollectionView!
     
     
-    var arrBannerImages = ["pizza-banner.jpg", "pizza-banner1.jpg", "burger-banner.jpg"]
+    var arrBannerImages = ["banner.jpg", "pizza-banner.jpg", "pizza-banner1.jpg", "burger-banner.jpg" , "beverages-banner.jpg" , "snack-banner1.jpg"]
     
     
     override func awakeFromNib() {

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96228E8D25302FCD00195A87 /* beverages-banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96228E8C25302FCD00195A87 /* beverages-banner.jpg */; };
+		96228E8F2530305900195A87 /* banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96228E8E2530305900195A87 /* banner.jpg */; };
+		96228E91253030C100195A87 /* snack-banner1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96228E90253030C000195A87 /* snack-banner1.jpg */; };
 		96721C0D252DEB8300A8E871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96721C0C252DEB8300A8E871 /* AppDelegate.swift */; };
 		96721C0F252DEB8300A8E871 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96721C0E252DEB8300A8E871 /* SceneDelegate.swift */; };
 		96721C11252DEB8300A8E871 /* CategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96721C10252DEB8300A8E871 /* CategoryVC.swift */; };
@@ -29,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96228E8C25302FCD00195A87 /* beverages-banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "beverages-banner.jpg"; sourceTree = "<group>"; };
+		96228E8E2530305900195A87 /* banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner.jpg; sourceTree = "<group>"; };
+		96228E90253030C000195A87 /* snack-banner1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "snack-banner1.jpg"; sourceTree = "<group>"; };
 		96721C09252DEB8300A8E871 /* myFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96721C0C252DEB8300A8E871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96721C0E252DEB8300A8E871 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +117,9 @@
 		96721C25252DF31E00A8E871 /* bannerImages */ = {
 			isa = PBXGroup;
 			children = (
+				96228E90253030C000195A87 /* snack-banner1.jpg */,
+				96228E8E2530305900195A87 /* banner.jpg */,
+				96228E8C25302FCD00195A87 /* beverages-banner.jpg */,
 				967443EA252EED9100434E78 /* burger-banner.jpg */,
 				96721C26252DF32F00A8E871 /* pizza-banner.jpg */,
 				96721C28252DF34700A8E871 /* pizza-banner1.jpg */,
@@ -215,9 +224,12 @@
 				96721C27252DF32F00A8E871 /* pizza-banner.jpg in Resources */,
 				96721C29252DF34700A8E871 /* pizza-banner1.jpg in Resources */,
 				96721C19252DEB8600A8E871 /* LaunchScreen.storyboard in Resources */,
+				96228E8D25302FCD00195A87 /* beverages-banner.jpg in Resources */,
 				96721C16252DEB8600A8E871 /* Assets.xcassets in Resources */,
 				967443EB252EED9100434E78 /* burger-banner.jpg in Resources */,
+				96228E91253030C100195A87 /* snack-banner1.jpg in Resources */,
 				96721C14252DEB8300A8E871 /* Main.storyboard in Resources */,
+				96228E8F2530305900195A87 /* banner.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
